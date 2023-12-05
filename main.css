@@ -36,6 +36,7 @@ header li a {
 
 .arcticles {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -69,8 +70,8 @@ section h2,
 }
 
 .articles article a{
-    background-color: rgb(56, 109, 80);
-    color: #fff;
+    background-color: #f5f5f5;
+    color: #000000;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
@@ -103,7 +104,7 @@ section h2 {
 }
 
 #sports .arcticles article a {
-    background-color: rgb(56, 109, 80);
+    background-color: green;
 }
 
 #economy {
@@ -112,5 +113,14 @@ section h2 {
 }
 
 #economy .arcticles article a {
-    background-color: rgba(255, 166, 0, 0.637);
+    background-color: yellow;
+}
+
+
+#musica  {
+    background-color: rgba(255, 0, 0, 0.473);
+}
+
+#musica .articles article a {
+    background-color: red;
 }
